@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background: linear-gradient( 45deg, #114b5f, #1a936f, #88d498, #114b5f);
+    background-size: 40%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    margin-right: 20px;
+    color: #114b5f;
+}
+.size {
+    width: 200px;
+  }
+  .follow{
+    text-align: center;
+    font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-left: 120px;
+  }

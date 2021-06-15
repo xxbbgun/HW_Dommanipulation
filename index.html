@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW_Dom</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+   
+    <link rel="stylesheet" type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Floral Studio</h1>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home</a>
+            <a class="nav-item nav-link" href="#">About</a>
+            <a class="nav-item nav-link" href="#">Categoreis</a>
+            <a class="nav-item nav-link " href="#">Review</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+
+
+
+    <div class="d-flex justify-content-center my-3">
+      <h3>Search</h3>
+      <form class="row gy-2 gx-3 align-items-center ">
+        <div class="col-auto">
+          <label class="visually-hidden" for="name">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Flower Name">
+        </div>
+        <div class="col-auto">
+          <label class="visually-hidden" for="detail">Detail</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="detail" placeholder="Detail">
+          </div>
+        </div>
+        <div class="col-auto">
+          <label class="visually-hidden" for="url">URL</label>
+          <div class="input-group">
+            <input type="text" class="form-control" id="url" placeholder="URL">
+          </div>
+        </div>
+        <div class="col-auto">
+          <button type="button" class="btn btn-primary" id="submitData">Submit</button>
+        </div>
+      </form>
+    </div>
+    <div class="container">
+      <div class="d-flex flex-row justify-content-center mx-5">
+        <table  class="table table-bordered" style="text-align:center;">
+          <thead>
+            <tr>
+              <th scope="col "style= "color: #1a936f;">No</th>
+              <th scope="col"style= "color: #1a936f;">Flower Name</th>
+              <th scope="col"style= "color: #1a936f;">Detail</th>
+              <th scope="col"style= "color: #1a936f;">Picture</th>
+            </tr>
+          </thead>
+          <tbody id="outputTableBody">
+            <tr>
+              <th scope="row">1</th>
+              <td>Helianthus</td>
+              <td>  ดอกทานตะวัน เป็นดอกไม้ที่สื่อถึงความรักบริสุทธิ์และมั่งคง<br>ราคาเริ่มต้น:150บาท </td>
+              <td><img class="rounded" src="http://f.ptcdn.info/503/038/000/nzo0xtewGLYePGh06O-o.jpg" alt="" width="200px"></td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Helene</td>
+              <td>ดอกไม้แห่งความหวัง
+                เดซี่เป็นดอกไม้ซึ่งเหมาะจะมอบเป็นของขวัญแสดงความยินดีแก่ทารกแรกเกิดหรือคุณแม่มือใหม่ <br>
+                 เดซี่ยังเป็นดอกไม้ที่สื่อถึงดวงอาทิตย์ การเริ่มต้นใหม่ ความอบอุ่น และความหวัง
+                <br>ราคาเริ่มต้น:100บาท/1ช่อ
+                <p>Best Seller
+                <i class="bi bi-star-fill" style="color: orange;"></i>
+                <i class="bi bi-star-fill" style="color: orange;"></i>
+                <i class="bi bi-star-fill" style="color: orange;"></i>
+                <i class="bi bi-star-fill" style="color: orange;"></i>
+                <i class="bi bi-star" style="color: orange;"></i></p></td>
+              <td><img class="rounded" src="https://www.sweetflower.co.th/content/images/2020/01/carolyn-v-9xhtgJxjrS8-unsplash.jpg" alt="" width="200"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+<div class="footer">
+  <div class="row">
+    <div class="col follow">
+        Follow us on
+        <i class="fab fa-facebook-f"></i>Facebook
+        <i class="fab fa-pinterest"></i>Pinterest
+        <i class="fab fa-twitter"></i>Twitter
+        <i class="fab fa-google-plus"></i>Google Plus
+        <div class="inc">
+            © 2021 Shop name Inc.
+        </div>
+    </div>
+</div>
+</div>
+</html>
